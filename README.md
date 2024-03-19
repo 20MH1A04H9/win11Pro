@@ -22,7 +22,7 @@ open CMD (Command Prompt) as Administrator
 ```bash
   cmd.exe
 ```
-    
+ ![App Screenshot](https://github.com/20MH1A04H9/win11Pro/blob/main/1.png)   
  Now, click on "yes"
 
 Now you have something like this:
@@ -39,10 +39,12 @@ And now type this command: ```bashslmgr.vbs /ckms``` Once again click on OK when
 Now, copy and paste this complete command:
 ```bash
 sc config LicenseManager start= auto & net start LicenseManager
-
-sc config wuauserv start= auto & net start wuauserv
-
-changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T
+```
+```bash
+ sc config wuauserv start= auto & net start wuauserv
+```
+```bash
+ changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T
 ```
 exit
 
@@ -53,9 +55,9 @@ Now wait until it's 100% and it's not weird that you will get an error
 When you get the error, just click Exit and then reboot your pc.
 
 
-## Screenshots
+## Main OS MY Laptop
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/20MH1A04H9/win11Pro/blob/main/pro.png)
 
 
 ## Activating Windows Pro
@@ -68,9 +70,11 @@ Type the following commands one for one to activate:
 
 ```bash 
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-
+```
+```bash 
 slmgr /skms kms8.msguides.com
-
+```
+```bash 
 slmgr /ato
 ```
-Now you have Windows 11 Pro
+ Windows 11 Pro is activated Successfully 
